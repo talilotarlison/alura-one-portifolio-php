@@ -1,0 +1,361 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,400&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  background-color: gainsboro;
+  padding: 0;
+  margin: 0 auto;
+  font-family: "Roboto", sans-serif;
+}
+
+.menu_inicio {
+  margin: 0 auto;
+  background-color: gainsboro;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80vw;
+}
+
+.menu {
+  display: flex;
+  list-style-type: none;
+  z-index: 10;
+}
+
+.menu > li {
+  padding: 30px;
+}
+
+.menu > li > a {
+  color: black;
+  text-decoration: none;
+}
+
+.menu > li > a:hover {
+  color: gray;
+}
+
+.email {
+  font-weight: bold;
+}
+
+.logo {
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+}
+
+.logo > img {
+  padding: 1px;
+  width: 30px;
+  height: 30px;
+}
+
+.sobre {
+  padding: 100px 50px;
+  background-color: rgb(189, 219, 229);
+}
+
+.sobre_mim {
+  margin: 0 100px;
+}
+
+.nomes {
+  margin: 0 auto;
+  width: 80vw;
+}
+
+.sobre_mim > div,
+h1,
+p {
+  text-align: left;
+}
+
+.sobre_mim > img {
+  width: 150px;
+  padding: 50px;
+}
+
+.banner {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  width: 80vw;
+}
+
+.perfil > img {
+  padding: 50px;
+  height: 250px;
+  border-radius: 0.5%;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.links > li {
+  padding: 10px 20px;
+  list-style-type: none;
+  color: gray;
+}
+
+.links > li > a {
+  color: black;
+}
+
+.links > li > a:hover {
+  color: gray;
+}
+
+.myname {
+  color: black;
+  font-weight: bolder;
+  text-decoration: underline;
+}
+
+.capa {
+  padding: 50px 50px 50px 150px;
+}
+
+.rodape {
+  background-color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.rodape > p {
+  text-align: center;
+  color: rgba(45, 45, 47, 0.677);
+  padding: 2px;
+}
+
+#checkbox-menu {
+  display: none;
+}
+
+.talilo {
+  text-decoration: underline;
+}
+
+.text-sobre {
+  text-align: left;
+  padding-top: 5px;
+}
+
+.capa > div > h1 {
+  text-align: left;
+  padding: 20px 20px;
+}
+
+/*barra de rolagem lateral personalizada*/
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #2c2c31;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #9e9ea0;
+  border-radius: 5px;
+}
+
+/*Skills area*/
+.section_box {
+  margin: 15px 100px;
+}
+
+.section_box > h1 {
+  text-align: center;
+  padding: 10px;
+  margin: 50px;
+}
+
+.boxs {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: rap;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.box {
+  width: 400px;
+  height: 200px;
+  background-color: white;
+  padding: 120px 20px 20px;
+}
+
+.box > h1 {
+  color: #1c1d21;
+}
+
+/*Formação area*/
+.box-formacao {
+  width: 400px;
+  height: 200px;
+  background-color: white;
+  text-align: center;
+}
+
+.box-formacao > h1 {
+  text-align: center;
+}
+
+#formacao {
+  margin: 15px 0px;
+  background-color: rgb(189, 219, 229);
+  padding: 40px;
+  padding-bottom: 150px;
+}
+
+/*projetos area*/
+.box-projetos {
+  width: 60vw;
+  background-color: white;
+  margin-bottom: 5px;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.box-projetos-formacao {
+  display: flex;
+  flex-direction: row;
+}
+
+.links-projetos > div > h1,
+.links-projetos > div > p {
+  display: block;
+  text-align: left;
+  margin: 5px;
+}
+
+.box-projetos > img {
+  width: 60vw;
+  border-radius: 20px;
+}
+
+.links-projetos {
+  width: 25vw;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/*areas dos botoes*/
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Koulen&family=Lato&family=Nunito&family=Playfair+Display:ital@1&family=Prata&family=Raleway:ital,wght@1,100&family=Roboto&family=Roboto+Condensed&family=Teko&display=swap");
+
+.botoes {
+  display: flex;
+  margin-left: 10px;
+}
+
+/*botão tipo 1*/
+.botao {
+  margin: 0px 20px;
+  font-family: Roboto, sans-serif;
+  font-weight: 0;
+  font-size: 14px;
+  color: #fff;
+  background-color: #0066cc;
+  padding: 10px 30px;
+  border: 2px solid #0066cc;
+  box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
+  transition: 1000ms;
+  transform: translateY(0);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
+}
+
+.botao:hover {
+  transition: 1000ms;
+  padding: 10px 50px;
+  transform: translateY(-0px);
+  background-color: #fff;
+  color: #0066cc;
+  border: solid 2px #0066cc;
+}
+
+/*botão tipo 2*/
+.botao2 {
+  font-family: Roboto, sans-serif;
+  font-weight: 0;
+  font-size: 14px;
+  color: #0066cc;
+  background-color: white;
+  padding: 10px 30px;
+  border: 2px solid #0066cc;
+  box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
+  transition: 1000ms;
+  transform: translateY(0);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
+}
+
+.botao2:hover {
+  transition: 1000ms;
+  padding: 10px 50px;
+  transform: translateY(-0px);
+  background-color: #0066cc;
+  color: white;
+  border: solid 2px #0066cc;
+}
+
+/*sesao contatos*/
+#formulario {
+  padding: 70px;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(189, 219, 229);
+}
+
+.section_contato {
+  margin: 5px 0px;
+}
+
+.section_contato_two {
+  padding: 10px;
+  margin: 10px;
+}
+
+.contato {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#form > div > input {
+  width: 40vw;
+  height: 40px;
+}
+
+#form > div > textarea {
+  margin-bottom: 20px;
+  width: 40vw;
+  height: 200px;
+}
+
+#form > div > label {
+  display: block;
+  margin: 10px;
+}
